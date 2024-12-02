@@ -9,9 +9,50 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <title></title>
+    <title>Image Carousel</title>
   </head>
   <body>
+    <div class="slideshow-container">
+      <!-- full width images -->
+      <div class="slide fade">
+        <img
+          src="./images/amy-humphries-2M_sDJ_agvs-unsplash.jpg"
+          alt="starfish"
+          style="width: 100%"
+        />
+      </div>
+      <div class="slide fade">
+        <img
+          src="./images/anders-jilden-cYrMQA7a3Wc-unsplash.jpg"
+          alt="italy"
+          style="width: 100%"
+        />
+      </div>
+      <div class="slide fade">
+        <img
+          src="./images/ian-dooley-DuBNA1QMpPA-unsplash.jpg"
+          alt="hot air balloons"
+          style="width: 100%"
+        />
+      </div>
+      <div class="slide fade">
+        <img
+          src="./images/qingbao-meng-01_igFr7hd4-unsplash.jpg"
+          alt="grassy mountains"
+          style="width: 100%"
+        />
+      </div>
+      <!-- next and previous cycling buttons -->
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+      <!-- navigation dots -->
+      <div class="dots-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
     <div id="content"></div>
     <script src="./modules/index.js" type="module"></script>
   </body>
