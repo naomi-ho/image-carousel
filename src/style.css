@@ -1,0 +1,35 @@
+:root {
+  --contents-background: #1e1e1e;
+  --secondary-background: #2d2d2d;
+  --secondary-hover: #3b3b3b;
+  --main-accent: #5ccc37;
+  --font-color: white;
+  --font-secondary-color: #cacaca;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background-color: var(--contents-background);
+  font-family: "Inter", sans-serif;
+  color: var(--font-color);
+  min-height: 100vh;
+  display: flex;
+}
+
+input {
+  color-scheme: dark;
+  border-width: 1px;
+}
