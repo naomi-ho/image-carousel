@@ -33,6 +33,9 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active"
 }
 
+// set interval to advance slides every 5 seconds
+setInterval(() => plusSlides(1), 5000)
+
 // event listeners for next/previous controls
 const prevBtn = document.getElementsByClassName("prev")[0]
 prevBtn.addEventListener("click", () => plusSlides(-1))
